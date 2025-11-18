@@ -1,0 +1,131 @@
+/* Soluzione qui */
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) {
+
+    #topbar{
+        display: block;
+
+    }
+
+    .container{
+        padding: 30px;
+    }
+    
+    h2::after{
+        content:"(Dolce Tradizionale)";
+    }
+
+    .recipe-name{
+        font-size: 30px;
+    }
+
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes ul li{
+        width: 33.3%;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    .ads{
+        display: block;
+    }
+
+    .clearfix img{
+        float: left;
+        margin-right: 20px;
+    }
+
+    .presentation::before{
+        content:" ";
+        display: table;
+        clear: both;
+    }
+
+
+}
+
+
+    /* DESKSTOP*/
+
+@media screen and (min-width: 992px) {
+
+    .recipe-name{
+        font-size: 40px;
+    }
+
+    .recipe-card{
+        display: flex;
+    }
+
+    .recipe-video{
+        width: 70%;
+        height: auto;
+    }
+
+
+    ul {
+        display:block;
+    }
+
+    .recipe-info{
+        width: 30%;
+    }
+
+    .quick-notes ul li {
+        width: 100%;
+    }
+
+
+    .btn  .fa-facebook::after{
+        content: "Facebook";
+    }
+
+    .btn .fa-twitter::after{
+        content: "Twitter";
+    }
+
+    .btn .fa-instagram::after{
+        content: "Instagram";
+    }
+
+    .btn .fa-pinterest::after{
+        content: "Pinterest";
+    }
+
+    .btn .fa-youtube::after{
+        content: "Youtube";
+    }
+
+    footer{
+        display: flex;
+        align-items: center;justify-content: space-between;
+    }
+
+    address{
+        text-align: start;
+    }
+
+
+} 
+
+
+
+
+
+
+
+
+
+/*Mobile*/
+
+@media screen and (min-width: 992px) {
+    
+}
