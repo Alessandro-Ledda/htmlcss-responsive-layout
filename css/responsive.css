@@ -43,7 +43,7 @@
         margin-right: 20px;
     }
 
-    .presentation::before{
+    .clearfix::after{
         content:" ";
         display: table;
         clear: both;
